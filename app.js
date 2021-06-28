@@ -8,7 +8,7 @@ const app = express()
 
 
 
-//**************************запросы******************
+/**************************запросы******************/
 
 app.use(express.static(path.resolve(__dirname, 'client')))
 app.get('*',(req, res)=>{
